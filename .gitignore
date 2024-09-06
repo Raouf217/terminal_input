@@ -2,4 +2,4 @@ __pycache__/
 build/
 dist/
 Todo.py
-terminal_input.egg-info/
+terminal_password.egg-info/

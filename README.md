@@ -1,7 +1,7 @@
-# terminal_input
+# terminal_password
 
 ## Overview
-`terminal_input` is a Python package that provides secure password input functionality for both Windows and Unix-like systems. It includes features such as masking the password input, supporting arrow key navigation, and handling the delete key during input.
+`terminal_password` is a Python package that provides secure password input functionality for both Windows and Unix-like systems. It includes features such as masking the password input, supporting arrow key navigation, and handling the delete key during input.
 
 This package automatically selects the appropriate method to prompt for a password based on the operating system (Windows or Unix-like).
 
@@ -15,15 +15,15 @@ This package automatically selects the appropriate method to prompt for a passwo
 You can install the package using `pip`:
 
 ```python
-pip install terminal_input
+pip install terminal_password
 ```
 
 ## Quickstart Guide
 
-Below is an example of how to use the `terminal_input` package to prompt the user for a password:
+Below is an example of how to use the `terminal_password` package to prompt the user for a password:
 
 ```python
-from terminal_input.termipass import termipass
+from terminal_password.termipass import termipass
 
 termipass()
 Password: *************

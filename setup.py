@@ -7,7 +7,7 @@ with io.open("README.md", encoding="utf-8") as fileObj:
     long_description = fileObj.read()
 
 setup(
-    name='terminal_password',
+    name='termipass',
     version='0.1',
     author="Mahmoud Raouf",
     author_email="mahmoud.raouf21@gmail.com",
@@ -16,8 +16,8 @@ setup(
     long_description_content_type='text/markdown',
     license="MIT",
     install_requires=[],
-    packages=find_packages(where="terminal_password"),
-    package_dir={"": "terminal_password"},
+    packages=find_packages(where="termipass"),
+    package_dir={"": "termipass"},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -26,7 +26,7 @@ setup(
     python_requires='>=3.6',
     entry_points={
         'console_scripts': [
-            'termipass=terminal_password.termipass:main'
+            'termipass=termipass.termipass:main'
         ]
     }
 )

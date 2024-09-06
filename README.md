@@ -1,7 +1,7 @@
-# terminal_password
+# termipass
 
 ## Overview
-`terminal_password` is a Python package that provides secure password input functionality for both Windows and Unix-like systems. It includes features such as masking the password input, supporting arrow key navigation, and handling the delete key during input.
+`termipass` is a Python package that provides secure password input functionality for both Windows and Unix-like systems. It includes features such as masking the password input, supporting arrow key navigation, and handling the delete key during input.
 
 This package automatically selects the appropriate method to prompt for a password based on the operating system (Windows or Unix-like).
 
@@ -15,15 +15,15 @@ This package automatically selects the appropriate method to prompt for a passwo
 You can install the package using `pip`:
 
 ```python
-pip install terminal_password
+pip install termipass
 ```
 
 ## Quickstart Guide
 
-Below is an example of how to use the `terminal_password` package to prompt the user for a password:
+Below is an example of how to use the `termipass` package to prompt the user for a password:
 
 ```python
-from terminal_password.termipass import termipass
+from termipass.termipass import termipass
 
 termipass()
 Password: *************

@@ -28,10 +28,10 @@ from termipass.termipass import termipass
 termipass()
 Password: *************
 'Thisisawesome'
-termipass(prompt="YOUR PW HERE": ")
+termipass(prompt='YOUR PW HERE: ')
 YOUR PW HERE: *************
 'Thisisawesome'
-termipass(mask='#)
+termipass(mask='#')
 Password: ###########
 'Thisisawesome'
 termipass(mask='') # Don't show anything calling getpass.getpass()

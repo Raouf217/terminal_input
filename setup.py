@@ -8,7 +8,7 @@ with io.open("README.md", encoding="utf-8") as fileObj:
 
 setup(
     name='termipass',
-    version='0.4.2',
+    version='0.4.3',
     author="Mahmoud Raouf",
     author_email="mahmoud.raouf21@gmail.com",
     description="provides secure displays **** for password input for both Windows and Unix-like systems.",

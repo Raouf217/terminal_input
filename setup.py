@@ -8,7 +8,7 @@ with io.open("README.md", encoding="utf-8") as fileObj:
 
 setup(
     name='termipass',
-    version='0.2',
+    version='0.4',
     author="Mahmoud Raouf",
     author_email="mahmoud.raouf21@gmail.com",
     description="provides secure displays **** for password input for both Windows and Unix-like systems.",
@@ -19,14 +19,8 @@ setup(
     packages=find_packages(where="termipass"),
     package_dir={"": "termipass"},
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: Developers",
         "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
     ],
-    python_requires='>=3.6',
-    entry_points={
-        'console_scripts': [
-            'termipass=termipass.termipass:main'
-        ]
-    }
 )
